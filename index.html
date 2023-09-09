@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src = "js/player.js"></script>
+  <script src = "js/game.js"></script>
+<!--Link game.js and player.js-->
+   <!-- Firebase -->
+   <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+   <script>
+     var firebaseConfig = {
+       apiKey: "AIzaSyB8qIXZa7iNGJFylHNTp1AfBPhK6aEVAIM",
+       authDomain: "car-racing-e50dc.firebaseapp.com",
+       databaseURL: "https://car-racing-e50dc-default-rtdb.firebaseio.com",
+       projectId: "car-racing-e50dc",
+       storageBucket: "car-racing-e50dc.appspot.com",
+       messagingSenderId: "757718103227",
+       appId: "1:757718103227:web:45e3332190d497a93c659e"
+     };
+     // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+   </script>
+
+<!--Add database config here below-->
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
